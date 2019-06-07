@@ -1547,7 +1547,6 @@ end TCL_Generic;
     <comp lib="0" loc="(280,360)" name="Pin">
       <a name="width" val="32"/>
       <a name="label" val="Data_in"/>
-      <a name="radix" val="16"/>
     </comp>
     <comp lib="0" loc="(120,510)" name="Pin">
       <a name="label" val="mem_write"/>
