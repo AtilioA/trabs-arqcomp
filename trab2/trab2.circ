@@ -135,48 +135,85 @@ end TCL_Generic;
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
-    <wire from="(530,360)" to="(550,360)"/>
-    <wire from="(700,340)" to="(730,340)"/>
-    <wire from="(730,340)" to="(730,500)"/>
-    <wire from="(530,290)" to="(530,360)"/>
-    <wire from="(190,420)" to="(210,420)"/>
-    <wire from="(190,400)" to="(210,400)"/>
-    <wire from="(140,500)" to="(310,500)"/>
-    <wire from="(440,320)" to="(550,320)"/>
-    <wire from="(440,340)" to="(550,340)"/>
-    <wire from="(140,320)" to="(210,320)"/>
-    <wire from="(140,340)" to="(210,340)"/>
-    <wire from="(140,360)" to="(210,360)"/>
-    <wire from="(140,380)" to="(210,380)"/>
-    <wire from="(310,500)" to="(730,500)"/>
-    <wire from="(700,320)" to="(780,320)"/>
-    <wire from="(140,380)" to="(140,500)"/>
-    <wire from="(310,500)" to="(310,530)"/>
-    <comp loc="(440,320)" name="Registers"/>
-    <comp lib="0" loc="(780,320)" name="Pin">
+    <wire from="(200,290)" to="(200,300)"/>
+    <wire from="(330,340)" to="(330,350)"/>
+    <wire from="(320,330)" to="(320,350)"/>
+    <wire from="(200,300)" to="(310,300)"/>
+    <wire from="(270,510)" to="(440,510)"/>
+    <wire from="(330,250)" to="(330,330)"/>
+    <wire from="(440,510)" to="(440,540)"/>
+    <wire from="(570,330)" to="(680,330)"/>
+    <wire from="(570,350)" to="(680,350)"/>
+    <wire from="(310,300)" to="(310,330)"/>
+    <wire from="(440,510)" to="(860,510)"/>
+    <wire from="(330,350)" to="(330,380)"/>
+    <wire from="(290,340)" to="(330,340)"/>
+    <wire from="(300,270)" to="(660,270)"/>
+    <wire from="(300,270)" to="(300,360)"/>
+    <wire from="(660,370)" to="(680,370)"/>
+    <wire from="(310,370)" to="(340,370)"/>
+    <wire from="(290,350)" to="(320,350)"/>
+    <wire from="(290,330)" to="(310,330)"/>
+    <wire from="(320,430)" to="(340,430)"/>
+    <wire from="(320,410)" to="(340,410)"/>
+    <wire from="(260,270)" to="(260,380)"/>
+    <wire from="(310,330)" to="(310,370)"/>
+    <wire from="(860,350)" to="(860,510)"/>
+    <wire from="(830,350)" to="(860,350)"/>
+    <wire from="(660,270)" to="(660,370)"/>
+    <wire from="(250,350)" to="(270,350)"/>
+    <wire from="(290,360)" to="(300,360)"/>
+    <wire from="(330,350)" to="(340,350)"/>
+    <wire from="(320,330)" to="(330,330)"/>
+    <wire from="(330,330)" to="(340,330)"/>
+    <wire from="(190,290)" to="(200,290)"/>
+    <wire from="(190,250)" to="(330,250)"/>
+    <wire from="(190,270)" to="(260,270)"/>
+    <wire from="(270,390)" to="(270,510)"/>
+    <wire from="(830,330)" to="(910,330)"/>
+    <wire from="(270,390)" to="(340,390)"/>
+    <wire from="(260,380)" to="(330,380)"/>
+    <comp lib="0" loc="(910,330)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(140,320)" name="Pin">
-      <a name="width" val="5"/>
-    </comp>
-    <comp lib="0" loc="(140,340)" name="Pin">
-      <a name="width" val="5"/>
-    </comp>
-    <comp lib="0" loc="(140,360)" name="Pin">
-      <a name="width" val="5"/>
-    </comp>
-    <comp loc="(700,320)" name="ALU"/>
-    <comp lib="0" loc="(190,420)" name="Pin"/>
-    <comp lib="0" loc="(190,400)" name="Pin"/>
-    <comp lib="0" loc="(310,530)" name="Probe">
+    <comp lib="0" loc="(440,540)" name="Probe">
       <a name="facing" val="north"/>
       <a name="radix" val="16"/>
     </comp>
-    <comp lib="0" loc="(530,290)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="width" val="3"/>
+    <comp lib="0" loc="(320,430)" name="Pin"/>
+    <comp lib="0" loc="(320,410)" name="Pin"/>
+    <comp loc="(570,330)" name="Registers"/>
+    <comp loc="(830,330)" name="ALU"/>
+    <comp lib="0" loc="(270,350)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="18"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="2"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="3"/>
+      <a name="bit16" val="3"/>
+      <a name="bit17" val="3"/>
     </comp>
+    <comp lib="0" loc="(190,250)" name="Probe"/>
+    <comp lib="0" loc="(190,270)" name="Probe"/>
+    <comp lib="0" loc="(250,350)" name="Pin">
+      <a name="width" val="18"/>
+      <a name="label" val="OP_RR1_RR2_WR"/>
+    </comp>
+    <comp lib="0" loc="(190,290)" name="Probe"/>
   </circuit>
   <circuit name="ALU">
     <a name="circuit" val="ALU"/>
