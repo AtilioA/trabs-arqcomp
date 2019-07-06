@@ -9,7 +9,7 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="facing" val="west"/>
     </tool>
     <tool name="Probe">
-      <a name="facing" val="south"/>
+      <a name="facing" val="west"/>
     </tool>
     <tool name="Tunnel">
       <a name="facing" val="south"/>
@@ -2825,7 +2825,7 @@ end TCL_Generic;
 202 8ec 0 0 160 21*0 16c 0
 e0 4b0 0 0 382 4ec 0 0
 1e0 4*0 ec 0 0 0 b0 6*0
-2e1
+2e0
 </a>
     </comp>
     <comp lib="0" loc="(970,390)" name="Splitter">
