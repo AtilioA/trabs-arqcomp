@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="2.14.6" version="1.0">
-This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
-<lib desc="#Wiring" name="0">
+<project source="2.15.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
+
+  <lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="facing" val="west"/>
     </tool>
@@ -9,7 +10,7 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="facing" val="west"/>
     </tool>
     <tool name="Probe">
-      <a name="facing" val="west"/>
+      <a name="facing" val="south"/>
     </tool>
     <tool name="Tunnel">
       <a name="facing" val="south"/>
@@ -145,6 +146,7 @@ end TCL_Generic;
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
+    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(530,300)" to="(580,300)"/>
     <wire from="(280,250)" to="(280,520)"/>
@@ -160,10 +162,19 @@ end TCL_Generic;
     <wire from="(280,250)" to="(290,250)"/>
     <wire from="(250,440)" to="(260,440)"/>
     <wire from="(250,460)" to="(260,460)"/>
+    <wire from="(250,270)" to="(260,270)"/>
     <wire from="(250,330)" to="(260,330)"/>
     <wire from="(250,380)" to="(260,380)"/>
+    <wire from="(250,370)" to="(260,370)"/>
+    <wire from="(250,360)" to="(260,360)"/>
+    <wire from="(250,340)" to="(260,340)"/>
+    <wire from="(250,350)" to="(260,350)"/>
+    <wire from="(250,390)" to="(260,390)"/>
+    <wire from="(250,410)" to="(260,410)"/>
+    <wire from="(250,430)" to="(260,430)"/>
+    <wire from="(250,420)" to="(260,420)"/>
+    <wire from="(250,400)" to="(260,400)"/>
     <wire from="(250,280)" to="(260,280)"/>
-    <wire from="(250,270)" to="(260,270)"/>
     <wire from="(250,260)" to="(260,260)"/>
     <wire from="(250,250)" to="(260,250)"/>
     <wire from="(250,240)" to="(260,240)"/>
@@ -173,15 +184,6 @@ end TCL_Generic;
     <wire from="(250,300)" to="(260,300)"/>
     <wire from="(250,310)" to="(260,310)"/>
     <wire from="(250,320)" to="(260,320)"/>
-    <wire from="(250,390)" to="(260,390)"/>
-    <wire from="(250,410)" to="(260,410)"/>
-    <wire from="(250,400)" to="(260,400)"/>
-    <wire from="(250,430)" to="(260,430)"/>
-    <wire from="(250,420)" to="(260,420)"/>
-    <wire from="(250,370)" to="(260,370)"/>
-    <wire from="(250,360)" to="(260,360)"/>
-    <wire from="(250,340)" to="(260,340)"/>
-    <wire from="(250,350)" to="(260,350)"/>
     <wire from="(90,200)" to="(160,200)"/>
     <comp lib="8" loc="(154,268)" name="Text">
       <a name="text" val="PC"/>
@@ -237,8 +239,8 @@ end TCL_Generic;
       <a name="addrWidth" val="24"/>
       <a name="dataWidth" val="32"/>
       <a name="contents">addr/data: 24 32
-cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
-20230003 221823 3c011001 a0230003 a4230003 ac230003 8c230003 94230003
+8000001 3c01ffff 221824 221825 221827 3c01ffff 34230003 24230003
+20230003 221823 3c011001 a0230003 a4230003 ac230003 8000004 94230003
 90230003 0 3e00008 10*0 80000004 4*0 80000004 0
 8000004
 </a>
@@ -259,6 +261,7 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
+    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect height="4" stroke="none" width="10" x="50" y="58"/>
@@ -275,12 +278,12 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
       <text fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="164">Clock</text>
       <rect height="4" stroke="none" width="10" x="270" y="58"/>
       <circ-port height="10" pin="1850,170" width="10" x="275" y="55"/>
-      <circ-port height="8" pin="180,1820" width="8" x="46" y="136"/>
       <circ-port height="8" pin="1780,410" width="8" x="46" y="56"/>
-      <circ-port height="8" pin="1780,880" width="8" x="46" y="76"/>
       <circ-port height="8" pin="200,2120" width="8" x="46" y="156"/>
-      <circ-port height="8" pin="180,2010" width="8" x="46" y="96"/>
       <circ-port height="8" pin="200,510" width="8" x="46" y="116"/>
+      <circ-port height="8" pin="180,2010" width="8" x="46" y="96"/>
+      <circ-port height="8" pin="1780,880" width="8" x="46" y="76"/>
+      <circ-port height="8" pin="180,1820" width="8" x="46" y="136"/>
       <text fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="265" y="64">ReadData1</text>
       <rect height="4" stroke="none" width="10" x="270" y="78"/>
       <circ-port height="10" pin="1850,640" width="10" x="275" y="75"/>
@@ -931,6 +934,7 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
+    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(1810,150)" to="(1810,560)"/>
     <wire from="(1220,770)" to="(1220,850)"/>
@@ -1258,6 +1262,12 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
       <a name="facing" val="west"/>
       <a name="fanout" val="6"/>
       <a name="incoming" val="6"/>
+      <a name="bit0" val="5"/>
+      <a name="bit1" val="4"/>
+      <a name="bit2" val="3"/>
+      <a name="bit3" val="2"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="0"/>
     </comp>
     <comp lib="0" loc="(560,150)" name="Splitter">
       <a name="facing" val="west"/>
@@ -1599,6 +1609,7 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
+    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect height="4" stroke="none" width="10" x="200" y="128"/>
@@ -1607,8 +1618,8 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
       <text fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="313" y="133">Sh_out</text>
       <rect height="20" stroke="none" width="100" x="210" y="140"/>
       <rect fill="none" height="40" stroke="#000000" stroke-width="2" width="100" x="210" y="120"/>
-      <circ-port height="10" pin="490,180" width="10" x="315" y="125"/>
       <circ-port height="8" pin="290,530" width="8" x="196" y="126"/>
+      <circ-port height="10" pin="490,180" width="10" x="315" y="125"/>
       <text fill="#ffffff" font-family="SansSerif" font-size="12" font-weight="bold" text-anchor="middle" x="258" y="153">ShiftLeft2_32</text>
       <circ-anchor facing="east" height="6" width="6" x="317" y="127"/>
     </appear>
@@ -1616,10 +1627,27 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <wire from="(310,200)" to="(430,200)"/>
     <wire from="(290,530)" to="(330,530)"/>
     <wire from="(450,180)" to="(490,180)"/>
-    <wire from="(350,410)" to="(430,410)"/>
-    <wire from="(350,450)" to="(430,450)"/>
     <wire from="(350,340)" to="(430,340)"/>
     <wire from="(350,300)" to="(430,300)"/>
+    <wire from="(350,410)" to="(430,410)"/>
+    <wire from="(350,450)" to="(430,450)"/>
+    <wire from="(350,460)" to="(430,460)"/>
+    <wire from="(350,470)" to="(430,470)"/>
+    <wire from="(350,480)" to="(430,480)"/>
+    <wire from="(350,490)" to="(430,490)"/>
+    <wire from="(350,500)" to="(430,500)"/>
+    <wire from="(350,420)" to="(430,420)"/>
+    <wire from="(350,440)" to="(430,440)"/>
+    <wire from="(350,430)" to="(430,430)"/>
+    <wire from="(350,400)" to="(430,400)"/>
+    <wire from="(350,390)" to="(430,390)"/>
+    <wire from="(350,370)" to="(430,370)"/>
+    <wire from="(350,350)" to="(430,350)"/>
+    <wire from="(350,360)" to="(430,360)"/>
+    <wire from="(350,380)" to="(430,380)"/>
+    <wire from="(350,330)" to="(430,330)"/>
+    <wire from="(350,310)" to="(430,310)"/>
+    <wire from="(350,320)" to="(430,320)"/>
     <wire from="(350,290)" to="(430,290)"/>
     <wire from="(350,280)" to="(430,280)"/>
     <wire from="(350,270)" to="(430,270)"/>
@@ -1629,23 +1657,6 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <wire from="(350,230)" to="(430,230)"/>
     <wire from="(350,210)" to="(430,210)"/>
     <wire from="(350,220)" to="(430,220)"/>
-    <wire from="(350,310)" to="(430,310)"/>
-    <wire from="(350,320)" to="(430,320)"/>
-    <wire from="(350,330)" to="(430,330)"/>
-    <wire from="(350,400)" to="(430,400)"/>
-    <wire from="(350,370)" to="(430,370)"/>
-    <wire from="(350,380)" to="(430,380)"/>
-    <wire from="(350,390)" to="(430,390)"/>
-    <wire from="(350,350)" to="(430,350)"/>
-    <wire from="(350,360)" to="(430,360)"/>
-    <wire from="(350,420)" to="(430,420)"/>
-    <wire from="(350,460)" to="(430,460)"/>
-    <wire from="(350,470)" to="(430,470)"/>
-    <wire from="(350,480)" to="(430,480)"/>
-    <wire from="(350,490)" to="(430,490)"/>
-    <wire from="(350,500)" to="(430,500)"/>
-    <wire from="(350,440)" to="(430,440)"/>
-    <wire from="(350,430)" to="(430,430)"/>
     <comp lib="0" loc="(490,180)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -1675,6 +1686,7 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
+    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(910,170)" to="(910,820)"/>
     <wire from="(1010,210)" to="(1010,730)"/>
@@ -2406,6 +2418,7 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
+    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect height="4" stroke="none" width="10" x="50" y="58"/>
@@ -2484,6 +2497,7 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
+    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect height="4" stroke="none" width="10" x="50" y="58"/>
@@ -2501,27 +2515,10 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <wire from="(310,200)" to="(430,200)"/>
     <wire from="(290,530)" to="(330,530)"/>
     <wire from="(450,180)" to="(490,180)"/>
+    <wire from="(350,400)" to="(430,400)"/>
+    <wire from="(350,450)" to="(430,450)"/>
     <wire from="(350,340)" to="(430,340)"/>
     <wire from="(350,300)" to="(430,300)"/>
-    <wire from="(350,410)" to="(430,410)"/>
-    <wire from="(350,450)" to="(430,450)"/>
-    <wire from="(350,460)" to="(430,460)"/>
-    <wire from="(350,470)" to="(430,470)"/>
-    <wire from="(350,480)" to="(430,480)"/>
-    <wire from="(350,490)" to="(430,490)"/>
-    <wire from="(350,500)" to="(430,500)"/>
-    <wire from="(350,420)" to="(430,420)"/>
-    <wire from="(350,440)" to="(430,440)"/>
-    <wire from="(350,430)" to="(430,430)"/>
-    <wire from="(350,400)" to="(430,400)"/>
-    <wire from="(350,390)" to="(430,390)"/>
-    <wire from="(350,370)" to="(430,370)"/>
-    <wire from="(350,350)" to="(430,350)"/>
-    <wire from="(350,360)" to="(430,360)"/>
-    <wire from="(350,380)" to="(430,380)"/>
-    <wire from="(350,330)" to="(430,330)"/>
-    <wire from="(350,310)" to="(430,310)"/>
-    <wire from="(350,320)" to="(430,320)"/>
     <wire from="(350,290)" to="(430,290)"/>
     <wire from="(350,280)" to="(430,280)"/>
     <wire from="(350,270)" to="(430,270)"/>
@@ -2531,6 +2528,23 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <wire from="(350,230)" to="(430,230)"/>
     <wire from="(350,210)" to="(430,210)"/>
     <wire from="(350,220)" to="(430,220)"/>
+    <wire from="(350,330)" to="(430,330)"/>
+    <wire from="(350,320)" to="(430,320)"/>
+    <wire from="(350,310)" to="(430,310)"/>
+    <wire from="(350,410)" to="(430,410)"/>
+    <wire from="(350,390)" to="(430,390)"/>
+    <wire from="(350,380)" to="(430,380)"/>
+    <wire from="(350,370)" to="(430,370)"/>
+    <wire from="(350,350)" to="(430,350)"/>
+    <wire from="(350,360)" to="(430,360)"/>
+    <wire from="(350,460)" to="(430,460)"/>
+    <wire from="(350,470)" to="(430,470)"/>
+    <wire from="(350,480)" to="(430,480)"/>
+    <wire from="(350,490)" to="(430,490)"/>
+    <wire from="(350,500)" to="(430,500)"/>
+    <wire from="(350,420)" to="(430,420)"/>
+    <wire from="(350,440)" to="(430,440)"/>
+    <wire from="(350,430)" to="(430,430)"/>
     <comp lib="0" loc="(490,180)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -2560,6 +2574,7 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
+    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(830,380)" to="(830,390)"/>
     <wire from="(820,390)" to="(820,400)"/>
@@ -2694,7 +2709,6 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="JumpRegitster"/>
-      <a name="labelloc" val="east"/>
     </comp>
   </circuit>
   <circuit name="trab4_Control">
@@ -2703,6 +2717,7 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
+    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(930,370)" to="(980,370)"/>
     <wire from="(850,250)" to="(900,250)"/>
@@ -2829,11 +2844,11 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
       <a name="addrWidth" val="6"/>
       <a name="dataWidth" val="16"/>
       <a name="contents">addr/data: 6 16
-41 0 0 0 e0 8b0 0 0
-202 8ec 0 0 160 0 0 0
-1000 17*0 16c 0 e0 4b0 0 0
-382 4ec 0 0 1e0 0 0 0
-3040 ec 0 0 0 b0 6*0 2e0
+41 0 1000 2000 e0 8b0 0 0
+202 8ec 0 0 160 21*0 16c 0
+e0 4b0 0 0 382 4ec 0 0
+1e0 0 0 0 3040 ec 0 0
+0 b0 6*0 2e0
 </a>
     </comp>
   </circuit>
@@ -2843,6 +2858,7 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
+    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(420,390)" to="(480,390)"/>
     <wire from="(560,380)" to="(560,390)"/>
@@ -2940,6 +2956,7 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
+    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect height="4" stroke="none" width="10" x="50" y="58"/>
@@ -2948,8 +2965,8 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
       <text fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="159" y="63">Sh_out</text>
       <rect height="20" stroke="none" width="100" x="60" y="70"/>
       <rect fill="none" height="40" stroke="#000000" stroke-width="2" width="100" x="60" y="50"/>
-      <circ-port height="10" pin="490,180" width="10" x="165" y="55"/>
       <circ-port height="8" pin="290,530" width="8" x="46" y="56"/>
+      <circ-port height="10" pin="490,180" width="10" x="165" y="55"/>
       <text fill="#ffffff" font-family="SansSerif" font-size="12" font-weight="bold" text-anchor="middle" x="110" y="84">ShiftLeft2_26_28</text>
       <circ-anchor facing="east" height="6" width="6" x="167" y="57"/>
     </appear>
@@ -2957,25 +2974,12 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <wire from="(370,190)" to="(370,200)"/>
     <wire from="(290,530)" to="(330,530)"/>
     <wire from="(400,180)" to="(490,180)"/>
-    <wire from="(350,350)" to="(380,350)"/>
     <wire from="(350,330)" to="(380,330)"/>
-    <wire from="(350,290)" to="(380,290)"/>
     <wire from="(350,280)" to="(380,280)"/>
-    <wire from="(350,270)" to="(380,270)"/>
-    <wire from="(350,260)" to="(380,260)"/>
-    <wire from="(350,250)" to="(380,250)"/>
-    <wire from="(350,240)" to="(380,240)"/>
-    <wire from="(350,230)" to="(380,230)"/>
-    <wire from="(350,220)" to="(380,220)"/>
-    <wire from="(350,210)" to="(380,210)"/>
-    <wire from="(350,300)" to="(380,300)"/>
-    <wire from="(350,320)" to="(380,320)"/>
-    <wire from="(350,310)" to="(380,310)"/>
-    <wire from="(350,340)" to="(380,340)"/>
+    <wire from="(350,350)" to="(380,350)"/>
     <wire from="(350,360)" to="(380,360)"/>
     <wire from="(350,370)" to="(380,370)"/>
     <wire from="(350,390)" to="(380,390)"/>
-    <wire from="(350,380)" to="(380,380)"/>
     <wire from="(350,400)" to="(380,400)"/>
     <wire from="(350,410)" to="(380,410)"/>
     <wire from="(350,420)" to="(380,420)"/>
@@ -2983,6 +2987,19 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <wire from="(350,440)" to="(380,440)"/>
     <wire from="(350,450)" to="(380,450)"/>
     <wire from="(350,460)" to="(380,460)"/>
+    <wire from="(350,380)" to="(380,380)"/>
+    <wire from="(350,340)" to="(380,340)"/>
+    <wire from="(350,290)" to="(380,290)"/>
+    <wire from="(350,300)" to="(380,300)"/>
+    <wire from="(350,320)" to="(380,320)"/>
+    <wire from="(350,310)" to="(380,310)"/>
+    <wire from="(350,270)" to="(380,270)"/>
+    <wire from="(350,260)" to="(380,260)"/>
+    <wire from="(350,250)" to="(380,250)"/>
+    <wire from="(350,240)" to="(380,240)"/>
+    <wire from="(350,230)" to="(380,230)"/>
+    <wire from="(350,220)" to="(380,220)"/>
+    <wire from="(350,210)" to="(380,210)"/>
     <wire from="(370,190)" to="(380,190)"/>
     <wire from="(370,200)" to="(380,200)"/>
     <wire from="(330,470)" to="(330,530)"/>
@@ -3013,6 +3030,7 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
+    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect height="4" stroke="none" width="10" x="50" y="98"/>
@@ -3025,10 +3043,10 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
       <text fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="185" y="64">Zero</text>
       <rect height="4" stroke="none" width="10" x="190" y="78"/>
       <circ-port height="10" pin="590,930" width="10" x="195" y="75"/>
-      <circ-port height="8" pin="140,760" width="8" x="46" y="76"/>
       <circ-port height="8" pin="140,690" width="8" x="46" y="96"/>
-      <circ-port height="8" pin="140,740" width="8" x="46" y="56"/>
       <circ-port height="10" pin="760,680" width="10" x="195" y="55"/>
+      <circ-port height="8" pin="140,740" width="8" x="46" y="56"/>
+      <circ-port height="8" pin="140,760" width="8" x="46" y="76"/>
       <text fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="185" y="84">Outpt</text>
       <rect height="20" stroke="none" width="130" x="60" y="110"/>
       <rect fill="none" height="80" stroke="#000000" stroke-width="2" width="130" x="60" y="50"/>
@@ -3070,13 +3088,13 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <wire from="(260,740)" to="(260,800)"/>
     <wire from="(240,760)" to="(240,820)"/>
     <wire from="(540,1070)" to="(540,1080)"/>
-    <wire from="(590,760)" to="(640,760)"/>
+    <wire from="(590,720)" to="(640,720)"/>
     <wire from="(590,600)" to="(640,600)"/>
-    <wire from="(590,800)" to="(640,800)"/>
     <wire from="(590,840)" to="(640,840)"/>
+    <wire from="(590,800)" to="(640,800)"/>
     <wire from="(590,560)" to="(640,560)"/>
     <wire from="(590,640)" to="(640,640)"/>
-    <wire from="(590,720)" to="(640,720)"/>
+    <wire from="(590,760)" to="(640,760)"/>
     <wire from="(510,1080)" to="(510,1340)"/>
     <wire from="(480,850)" to="(480,860)"/>
     <wire from="(450,980)" to="(450,990)"/>
@@ -3097,11 +3115,11 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <wire from="(360,910)" to="(490,910)"/>
     <wire from="(590,650)" to="(640,650)"/>
     <wire from="(590,610)" to="(640,610)"/>
-    <wire from="(590,770)" to="(640,770)"/>
     <wire from="(590,730)" to="(640,730)"/>
+    <wire from="(590,770)" to="(640,770)"/>
     <wire from="(590,810)" to="(640,810)"/>
-    <wire from="(590,530)" to="(640,530)"/>
     <wire from="(590,570)" to="(640,570)"/>
+    <wire from="(590,530)" to="(640,530)"/>
     <wire from="(590,690)" to="(640,690)"/>
     <wire from="(240,820)" to="(290,820)"/>
     <wire from="(140,740)" to="(260,740)"/>
@@ -3129,9 +3147,9 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
     <wire from="(350,870)" to="(480,870)"/>
     <wire from="(370,920)" to="(370,1170)"/>
     <wire from="(260,800)" to="(260,870)"/>
-    <wire from="(590,780)" to="(640,780)"/>
     <wire from="(590,820)" to="(640,820)"/>
     <wire from="(590,700)" to="(640,700)"/>
+    <wire from="(590,780)" to="(640,780)"/>
     <wire from="(590,580)" to="(640,580)"/>
     <wire from="(590,540)" to="(640,540)"/>
     <wire from="(590,620)" to="(640,620)"/>
@@ -3167,7 +3185,6 @@ cffffff 3c01ffff 221824 221825 221827 30230003 34230003 24230003
       <a name="output" val="true"/>
       <a name="width" val="32"/>
       <a name="label" val="Outpt"/>
-      <a name="labelloc" val="east"/>
       <a name="radix" val="16"/>
     </comp>
     <comp lib="1" loc="(740,680)" name="NOT Gate"/>
