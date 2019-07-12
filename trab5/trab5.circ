@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="2.15.0" version="1.0">
-  This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
-
-  <lib desc="#Wiring" name="0">
+<project source="2.14.6" version="1.0">
+This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
+<lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="facing" val="west"/>
     </tool>
@@ -146,7 +145,6 @@ end TCL_Generic;
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
-    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(530,300)" to="(580,300)"/>
     <wire from="(280,250)" to="(280,520)"/>
@@ -162,28 +160,28 @@ end TCL_Generic;
     <wire from="(280,250)" to="(290,250)"/>
     <wire from="(250,440)" to="(260,440)"/>
     <wire from="(250,460)" to="(260,460)"/>
+    <wire from="(250,310)" to="(260,310)"/>
     <wire from="(250,270)" to="(260,270)"/>
-    <wire from="(250,330)" to="(260,330)"/>
-    <wire from="(250,380)" to="(260,380)"/>
     <wire from="(250,370)" to="(260,370)"/>
     <wire from="(250,360)" to="(260,360)"/>
     <wire from="(250,340)" to="(260,340)"/>
     <wire from="(250,350)" to="(260,350)"/>
+    <wire from="(250,380)" to="(260,380)"/>
     <wire from="(250,390)" to="(260,390)"/>
     <wire from="(250,410)" to="(260,410)"/>
     <wire from="(250,430)" to="(260,430)"/>
     <wire from="(250,420)" to="(260,420)"/>
     <wire from="(250,400)" to="(260,400)"/>
-    <wire from="(250,280)" to="(260,280)"/>
+    <wire from="(250,320)" to="(260,320)"/>
+    <wire from="(250,330)" to="(260,330)"/>
     <wire from="(250,260)" to="(260,260)"/>
     <wire from="(250,250)" to="(260,250)"/>
     <wire from="(250,240)" to="(260,240)"/>
     <wire from="(220,200)" to="(230,200)"/>
     <wire from="(250,230)" to="(260,230)"/>
+    <wire from="(250,280)" to="(260,280)"/>
     <wire from="(250,290)" to="(260,290)"/>
     <wire from="(250,300)" to="(260,300)"/>
-    <wire from="(250,310)" to="(260,310)"/>
-    <wire from="(250,320)" to="(260,320)"/>
     <wire from="(90,200)" to="(160,200)"/>
     <comp lib="8" loc="(154,268)" name="Text">
       <a name="text" val="PC"/>
@@ -239,10 +237,9 @@ end TCL_Generic;
       <a name="addrWidth" val="24"/>
       <a name="dataWidth" val="32"/>
       <a name="contents">addr/data: 24 32
-8000001 3c01ffff 221824 221825 221827 3c01ffff 34230003 24230003
-20230003 221823 3c011001 a0230003 a4230003 ac230003 8000004 94230003
-90230003 0 3e00008 10*0 80000004 4*0 80000004 0
-8000004
+201d0404 3c0effff 35ceffff 3c0fffff 35effff8 20040005 20050006 c000009
+8000008 10a0000a 3afe820 afa50000 afbf0004 ae2820 c000009 8fa50000
+8fbf0004 23bd0008 441020 3e00008 20020000 3e00008
 </a>
     </comp>
     <comp lib="8" loc="(383,185)" name="Text">
@@ -261,7 +258,6 @@ end TCL_Generic;
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
-    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect height="4" stroke="none" width="10" x="50" y="58"/>
@@ -278,12 +274,12 @@ end TCL_Generic;
       <text fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="164">Clock</text>
       <rect height="4" stroke="none" width="10" x="270" y="58"/>
       <circ-port height="10" pin="1850,170" width="10" x="275" y="55"/>
-      <circ-port height="8" pin="1780,410" width="8" x="46" y="56"/>
-      <circ-port height="8" pin="200,2120" width="8" x="46" y="156"/>
-      <circ-port height="8" pin="200,510" width="8" x="46" y="116"/>
       <circ-port height="8" pin="180,2010" width="8" x="46" y="96"/>
       <circ-port height="8" pin="1780,880" width="8" x="46" y="76"/>
+      <circ-port height="8" pin="1780,410" width="8" x="46" y="56"/>
+      <circ-port height="8" pin="200,510" width="8" x="46" y="116"/>
       <circ-port height="8" pin="180,1820" width="8" x="46" y="136"/>
+      <circ-port height="8" pin="200,2120" width="8" x="46" y="156"/>
       <text fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="265" y="64">ReadData1</text>
       <rect height="4" stroke="none" width="10" x="270" y="78"/>
       <circ-port height="10" pin="1850,640" width="10" x="275" y="75"/>
@@ -934,7 +930,6 @@ end TCL_Generic;
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
-    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(1810,150)" to="(1810,560)"/>
     <wire from="(1220,770)" to="(1220,850)"/>
@@ -959,6 +954,7 @@ end TCL_Generic;
     <wire from="(140,350)" to="(1890,350)"/>
     <wire from="(1870,550)" to="(1880,550)"/>
     <wire from="(340,360)" to="(340,790)"/>
+    <wire from="(460,660)" to="(800,660)"/>
     <wire from="(500,930)" to="(500,1030)"/>
     <wire from="(1060,1160)" to="(1090,1160)"/>
     <wire from="(900,770)" to="(970,770)"/>
@@ -989,14 +985,17 @@ end TCL_Generic;
     <wire from="(1220,750)" to="(1330,750)"/>
     <wire from="(550,330)" to="(550,340)"/>
     <wire from="(1700,530)" to="(1740,530)"/>
+    <wire from="(800,660)" to="(800,1180)"/>
     <wire from="(330,170)" to="(330,810)"/>
     <wire from="(630,540)" to="(810,540)"/>
     <wire from="(630,620)" to="(810,620)"/>
     <wire from="(630,460)" to="(810,460)"/>
+    <wire from="(80,810)" to="(140,810)"/>
     <wire from="(1770,430)" to="(1870,430)"/>
     <wire from="(1440,500)" to="(1440,530)"/>
     <wire from="(820,790)" to="(820,860)"/>
     <wire from="(1900,440)" to="(1900,710)"/>
+    <wire from="(800,1180)" to="(1090,1180)"/>
     <wire from="(1640,540)" to="(1640,550)"/>
     <wire from="(640,850)" to="(640,930)"/>
     <wire from="(370,760)" to="(600,760)"/>
@@ -1007,7 +1006,6 @@ end TCL_Generic;
     <wire from="(640,850)" to="(660,850)"/>
     <wire from="(1530,770)" to="(1610,770)"/>
     <wire from="(740,870)" to="(760,870)"/>
-    <wire from="(120,810)" to="(140,810)"/>
     <wire from="(1360,910)" to="(1360,1140)"/>
     <wire from="(1240,360)" to="(1240,530)"/>
     <wire from="(330,810)" to="(330,1000)"/>
@@ -1252,9 +1250,6 @@ end TCL_Generic;
       <a name="bit30" val="1"/>
       <a name="bit31" val="0"/>
     </comp>
-    <comp lib="0" loc="(120,810)" name="Pin">
-      <a name="label" val="Clk"/>
-    </comp>
     <comp lib="0" loc="(100,600)" name="Probe">
       <a name="radix" val="16"/>
     </comp>
@@ -1262,12 +1257,6 @@ end TCL_Generic;
       <a name="facing" val="west"/>
       <a name="fanout" val="6"/>
       <a name="incoming" val="6"/>
-      <a name="bit0" val="5"/>
-      <a name="bit1" val="4"/>
-      <a name="bit2" val="3"/>
-      <a name="bit3" val="2"/>
-      <a name="bit4" val="1"/>
-      <a name="bit5" val="0"/>
     </comp>
     <comp lib="0" loc="(560,150)" name="Splitter">
       <a name="facing" val="west"/>
@@ -1602,6 +1591,9 @@ end TCL_Generic;
       <a name="facing" val="south"/>
       <a name="radix" val="10signed"/>
     </comp>
+    <comp lib="0" loc="(80,810)" name="Pin">
+      <a name="label" val="Clock"/>
+    </comp>
   </circuit>
   <circuit name="trab3_ShiftLeft2_32">
     <a name="circuit" val="trab3_ShiftLeft2_32"/>
@@ -1609,7 +1601,6 @@ end TCL_Generic;
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
-    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect height="4" stroke="none" width="10" x="200" y="128"/>
@@ -1627,27 +1618,27 @@ end TCL_Generic;
     <wire from="(310,200)" to="(430,200)"/>
     <wire from="(290,530)" to="(330,530)"/>
     <wire from="(450,180)" to="(490,180)"/>
-    <wire from="(350,340)" to="(430,340)"/>
+    <wire from="(350,380)" to="(430,380)"/>
     <wire from="(350,300)" to="(430,300)"/>
-    <wire from="(350,410)" to="(430,410)"/>
+    <wire from="(350,400)" to="(430,400)"/>
     <wire from="(350,450)" to="(430,450)"/>
     <wire from="(350,460)" to="(430,460)"/>
     <wire from="(350,470)" to="(430,470)"/>
     <wire from="(350,480)" to="(430,480)"/>
     <wire from="(350,490)" to="(430,490)"/>
     <wire from="(350,500)" to="(430,500)"/>
+    <wire from="(350,410)" to="(430,410)"/>
     <wire from="(350,420)" to="(430,420)"/>
     <wire from="(350,440)" to="(430,440)"/>
     <wire from="(350,430)" to="(430,430)"/>
-    <wire from="(350,400)" to="(430,400)"/>
-    <wire from="(350,390)" to="(430,390)"/>
+    <wire from="(350,340)" to="(430,340)"/>
     <wire from="(350,370)" to="(430,370)"/>
-    <wire from="(350,350)" to="(430,350)"/>
     <wire from="(350,360)" to="(430,360)"/>
-    <wire from="(350,380)" to="(430,380)"/>
+    <wire from="(350,350)" to="(430,350)"/>
+    <wire from="(350,390)" to="(430,390)"/>
     <wire from="(350,330)" to="(430,330)"/>
-    <wire from="(350,310)" to="(430,310)"/>
     <wire from="(350,320)" to="(430,320)"/>
+    <wire from="(350,310)" to="(430,310)"/>
     <wire from="(350,290)" to="(430,290)"/>
     <wire from="(350,280)" to="(430,280)"/>
     <wire from="(350,270)" to="(430,270)"/>
@@ -1686,7 +1677,6 @@ end TCL_Generic;
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
-    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(910,170)" to="(910,820)"/>
     <wire from="(1010,210)" to="(1010,730)"/>
@@ -2418,7 +2408,6 @@ end TCL_Generic;
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
-    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect height="4" stroke="none" width="10" x="50" y="58"/>
@@ -2497,7 +2486,6 @@ end TCL_Generic;
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
-    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect height="4" stroke="none" width="10" x="50" y="58"/>
@@ -2515,9 +2503,8 @@ end TCL_Generic;
     <wire from="(310,200)" to="(430,200)"/>
     <wire from="(290,530)" to="(330,530)"/>
     <wire from="(450,180)" to="(490,180)"/>
-    <wire from="(350,400)" to="(430,400)"/>
+    <wire from="(350,380)" to="(430,380)"/>
     <wire from="(350,450)" to="(430,450)"/>
-    <wire from="(350,340)" to="(430,340)"/>
     <wire from="(350,300)" to="(430,300)"/>
     <wire from="(350,290)" to="(430,290)"/>
     <wire from="(350,280)" to="(430,280)"/>
@@ -2528,20 +2515,21 @@ end TCL_Generic;
     <wire from="(350,230)" to="(430,230)"/>
     <wire from="(350,210)" to="(430,210)"/>
     <wire from="(350,220)" to="(430,220)"/>
+    <wire from="(350,310)" to="(430,310)"/>
     <wire from="(350,330)" to="(430,330)"/>
     <wire from="(350,320)" to="(430,320)"/>
-    <wire from="(350,310)" to="(430,310)"/>
-    <wire from="(350,410)" to="(430,410)"/>
-    <wire from="(350,390)" to="(430,390)"/>
-    <wire from="(350,380)" to="(430,380)"/>
+    <wire from="(350,340)" to="(430,340)"/>
     <wire from="(350,370)" to="(430,370)"/>
-    <wire from="(350,350)" to="(430,350)"/>
     <wire from="(350,360)" to="(430,360)"/>
+    <wire from="(350,350)" to="(430,350)"/>
+    <wire from="(350,400)" to="(430,400)"/>
+    <wire from="(350,390)" to="(430,390)"/>
     <wire from="(350,460)" to="(430,460)"/>
     <wire from="(350,470)" to="(430,470)"/>
     <wire from="(350,480)" to="(430,480)"/>
     <wire from="(350,490)" to="(430,490)"/>
     <wire from="(350,500)" to="(430,500)"/>
+    <wire from="(350,410)" to="(430,410)"/>
     <wire from="(350,420)" to="(430,420)"/>
     <wire from="(350,440)" to="(430,440)"/>
     <wire from="(350,430)" to="(430,430)"/>
@@ -2574,25 +2562,19 @@ end TCL_Generic;
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
-    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(830,380)" to="(830,390)"/>
     <wire from="(820,390)" to="(820,400)"/>
     <wire from="(840,370)" to="(840,380)"/>
-    <wire from="(780,440)" to="(780,450)"/>
-    <wire from="(780,470)" to="(780,480)"/>
-    <wire from="(780,480)" to="(840,480)"/>
-    <wire from="(780,460)" to="(840,460)"/>
-    <wire from="(780,440)" to="(840,440)"/>
+    <wire from="(560,480)" to="(610,480)"/>
     <wire from="(420,250)" to="(600,250)"/>
-    <wire from="(510,480)" to="(760,480)"/>
+    <wire from="(560,410)" to="(560,480)"/>
     <wire from="(480,220)" to="(600,220)"/>
     <wire from="(1000,370)" to="(1000,400)"/>
     <wire from="(800,370)" to="(840,370)"/>
     <wire from="(800,360)" to="(840,360)"/>
     <wire from="(800,350)" to="(840,350)"/>
     <wire from="(800,340)" to="(840,340)"/>
-    <wire from="(510,300)" to="(620,300)"/>
     <wire from="(530,170)" to="(530,200)"/>
     <wire from="(670,400)" to="(780,400)"/>
     <wire from="(500,210)" to="(600,210)"/>
@@ -2603,8 +2585,9 @@ end TCL_Generic;
     <wire from="(820,400)" to="(840,400)"/>
     <wire from="(840,380)" to="(860,380)"/>
     <wire from="(380,270)" to="(600,270)"/>
+    <wire from="(620,300)" to="(640,300)"/>
     <wire from="(440,240)" to="(600,240)"/>
-    <wire from="(910,460)" to="(1000,460)"/>
+    <wire from="(640,300)" to="(640,410)"/>
     <wire from="(670,240)" to="(670,400)"/>
     <wire from="(640,240)" to="(670,240)"/>
     <wire from="(910,370)" to="(1000,370)"/>
@@ -2612,11 +2595,12 @@ end TCL_Generic;
     <wire from="(520,170)" to="(530,170)"/>
     <wire from="(530,200)" to="(600,200)"/>
     <wire from="(460,230)" to="(600,230)"/>
-    <wire from="(510,300)" to="(510,480)"/>
+    <wire from="(560,410)" to="(640,410)"/>
     <wire from="(1000,400)" to="(1010,400)"/>
     <wire from="(1000,440)" to="(1010,440)"/>
     <wire from="(830,390)" to="(840,390)"/>
     <wire from="(670,240)" to="(680,240)"/>
+    <wire from="(670,460)" to="(1000,460)"/>
     <wire from="(400,260)" to="(600,260)"/>
     <comp lib="2" loc="(640,240)" name="Multiplexer">
       <a name="select" val="3"/>
@@ -2688,27 +2672,22 @@ end TCL_Generic;
     <comp lib="1" loc="(860,390)" name="NOT Gate">
       <a name="size" val="20"/>
     </comp>
-    <comp lib="1" loc="(860,480)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="1" loc="(860,440)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="1" loc="(860,460)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="0" loc="(760,480)" name="Splitter">
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
-    </comp>
-    <comp lib="1" loc="(910,460)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
     <comp lib="1" loc="(1060,420)" name="AND Gate"/>
     <comp lib="0" loc="(1060,420)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="JumpRegitster"/>
+    </comp>
+    <comp lib="1" loc="(670,460)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+      <a name="negate2" val="true"/>
+    </comp>
+    <comp lib="0" loc="(610,480)" name="Splitter">
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
     </comp>
   </circuit>
   <circuit name="trab4_Control">
@@ -2717,7 +2696,6 @@ end TCL_Generic;
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
-    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(930,370)" to="(980,370)"/>
     <wire from="(850,250)" to="(900,250)"/>
@@ -2845,10 +2823,10 @@ end TCL_Generic;
       <a name="dataWidth" val="16"/>
       <a name="contents">addr/data: 6 16
 41 0 1000 2000 e0 8b0 0 0
-202 8ec 0 0 160 21*0 16c 0
-e0 4b0 0 0 382 4ec 0 0
-1e0 0 0 0 3040 ec 0 0
-0 b0 6*0 2e0
+202 8ec 0 0 160 0 0 0
+1080 17*0 16c 0 e0 4b0 0 0
+382 4ec 0 0 1e0 0 0 0
+3040 ec 0 0 0 b0 6*0 2e0
 </a>
     </comp>
   </circuit>
@@ -2858,7 +2836,6 @@ e0 4b0 0 0 382 4ec 0 0
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
-    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(420,390)" to="(480,390)"/>
     <wire from="(560,380)" to="(560,390)"/>
@@ -2956,7 +2933,6 @@ e0 4b0 0 0 382 4ec 0 0
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
-    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect height="4" stroke="none" width="10" x="50" y="58"/>
@@ -2975,10 +2951,10 @@ e0 4b0 0 0 382 4ec 0 0
     <wire from="(290,530)" to="(330,530)"/>
     <wire from="(400,180)" to="(490,180)"/>
     <wire from="(350,330)" to="(380,330)"/>
-    <wire from="(350,280)" to="(380,280)"/>
-    <wire from="(350,350)" to="(380,350)"/>
+    <wire from="(350,270)" to="(380,270)"/>
     <wire from="(350,360)" to="(380,360)"/>
     <wire from="(350,370)" to="(380,370)"/>
+    <wire from="(350,380)" to="(380,380)"/>
     <wire from="(350,390)" to="(380,390)"/>
     <wire from="(350,400)" to="(380,400)"/>
     <wire from="(350,410)" to="(380,410)"/>
@@ -2987,19 +2963,19 @@ e0 4b0 0 0 382 4ec 0 0
     <wire from="(350,440)" to="(380,440)"/>
     <wire from="(350,450)" to="(380,450)"/>
     <wire from="(350,460)" to="(380,460)"/>
-    <wire from="(350,380)" to="(380,380)"/>
+    <wire from="(350,350)" to="(380,350)"/>
     <wire from="(350,340)" to="(380,340)"/>
-    <wire from="(350,290)" to="(380,290)"/>
-    <wire from="(350,300)" to="(380,300)"/>
-    <wire from="(350,320)" to="(380,320)"/>
-    <wire from="(350,310)" to="(380,310)"/>
-    <wire from="(350,270)" to="(380,270)"/>
+    <wire from="(350,280)" to="(380,280)"/>
     <wire from="(350,260)" to="(380,260)"/>
     <wire from="(350,250)" to="(380,250)"/>
     <wire from="(350,240)" to="(380,240)"/>
     <wire from="(350,230)" to="(380,230)"/>
     <wire from="(350,220)" to="(380,220)"/>
     <wire from="(350,210)" to="(380,210)"/>
+    <wire from="(350,290)" to="(380,290)"/>
+    <wire from="(350,300)" to="(380,300)"/>
+    <wire from="(350,320)" to="(380,320)"/>
+    <wire from="(350,310)" to="(380,310)"/>
     <wire from="(370,190)" to="(380,190)"/>
     <wire from="(370,200)" to="(380,200)"/>
     <wire from="(330,470)" to="(330,530)"/>
@@ -3030,7 +3006,6 @@ e0 4b0 0 0 382 4ec 0 0
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
-    <a name="circuitnamedboxfixedsize" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <appear>
       <rect height="4" stroke="none" width="10" x="50" y="98"/>
@@ -3043,10 +3018,10 @@ e0 4b0 0 0 382 4ec 0 0
       <text fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="185" y="64">Zero</text>
       <rect height="4" stroke="none" width="10" x="190" y="78"/>
       <circ-port height="10" pin="590,930" width="10" x="195" y="75"/>
-      <circ-port height="8" pin="140,690" width="8" x="46" y="96"/>
-      <circ-port height="10" pin="760,680" width="10" x="195" y="55"/>
-      <circ-port height="8" pin="140,740" width="8" x="46" y="56"/>
       <circ-port height="8" pin="140,760" width="8" x="46" y="76"/>
+      <circ-port height="8" pin="140,690" width="8" x="46" y="96"/>
+      <circ-port height="8" pin="140,740" width="8" x="46" y="56"/>
+      <circ-port height="10" pin="760,680" width="10" x="195" y="55"/>
       <text fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="185" y="84">Outpt</text>
       <rect height="20" stroke="none" width="130" x="60" y="110"/>
       <rect fill="none" height="80" stroke="#000000" stroke-width="2" width="130" x="60" y="50"/>
